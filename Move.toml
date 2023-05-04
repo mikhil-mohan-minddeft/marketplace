@@ -1,0 +1,17 @@
+[package]
+name = 'marketplace'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+[addresses]
+aptos_framework = "0x1"
+admin_addr = "31e47bd7969e90cf22323ed72fe81091265b8fb3065bc5defbb1510fe502052b"
